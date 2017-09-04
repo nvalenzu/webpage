@@ -1,0 +1,115 @@
+<html>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.center {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 75%;
+    left: 35%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+</style>
+</head>
+<body bgcolor="#0D0C0A">
+<div id="wrapper">
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Documentacion</a>
+    <div class="dropdown-content">
+      <a href="documentacion/conociendo_objetivos.html">Known your Target</a>
+      <a href="documentacion/DNS_spoofing.html">DNS Spoofing</a>
+	<a href="documentacion/ejercicios_sql_injection.html">SQLi ejercicios</a>
+      <a href="documentacion/email_spoofing.html">Email Spoofing</a>
+	<a href="documentacion/spear_phishing.html">Spear Phishing</a>
+	<a href="documentacion/explotando_SMB.html">Explotando SMB</a>
+    </div>
+
+  <li><a href="typer/">Typer</a></li>
+  <li><a href="cv.pdf">Curriculum</a></li>
+</ul>
+<center><img src="images/kitsune2.png" alt="Mountain View" style="width:446px;height:506px;"><center>
+<!-- <h1><center> <font color="White">Trace your own way</font></center></h1> -->
+<h2><font color="white">Hello guys</h2></font>
+<div class="center">
+  <font color="white"><h4><p>This is my personal webpage for write different types of documentation about
+    Ciber Security, ethical hacking and other stuff. Please feel free to explore all the documentation
+    and learn about this. If you want contact me, please write me an email to: nicolas.valenzum@gmail.com
+    <br> <br>
+    Enjoy
+
+  </p></h4></font>
+</div>
+
+<!-- <embed src="Crimson.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+<noembed>
+<bgsound src="Crimson.mp3" loop="infinite">
+</noembed>
+-->
+</div>
+</body>
+
+<body >
+<body >
+<body >
+</html>
